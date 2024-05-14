@@ -1,0 +1,108 @@
+/* 基本的全局样式 */
+body {
+    font-family: Arial, sans-serif; /* 设置字体为Arial, 无衬线 */
+    margin: 0; /* 移除外边距 */
+    padding: 0; /* 移除内边距 */
+    background-color: #f4f4f4;
+    display: flex; /* 使用flex布局 */
+    flex-direction: column; /* 垂直布局 */
+    min-height: 100vh; /* 最小高度为视窗高度，确保页脚固定在底部 */
+}
+
+/* 页眉样式 */
+header {
+    background-color: #333; /* 深灰色背景 */
+    color: #fff; /* 白色文字 */
+    padding: 20px; /* 内边距20像素 */
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* 文本居中 */
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0 15px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;  /* 确保主要内容垂直堆叠 */
+    align-items: center;
+    padding: 20px;
+}
+
+.top {
+    display: flex;
+    width: 100%; /* 确保占满整个主容器宽度 */
+    justify-content: space-around; /* 在列之间平均分配空间 */
+    flex-wrap: wrap; /* 允许列换行，以适应不同屏幕大小 */
+}
+
+.left, .center, .right {
+    flex: 1;
+    padding: 10px;
+    min-width: 350px; /* 确保列有最小宽度 */
+}
+
+.left h1, .center h2 {
+    font-size: 18px;  /* 设置字体大小 */
+    color: #333;     /* 设置字体颜色，如果需要 */
+    margin: 10px 0;  /* 设置适当的上下外边距 */
+}
+
+.right {
+    flex-basis: 30%; /* 右侧列更宽，为地图提供更多空间 */
+}
+
+.bottom {
+    width: 100%;
+    padding: 20px;
+    background-color: #f8f8f8;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin-top: 20px;
+    box-sizing: border-box; /* 包括padding在内的盒模型 */
+}
+
+#map {
+    width: 100%;
+    height: 400px; /* Adjust height as needed */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 8px;
+    margin-top: 5px;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+li:last-child {
+    border-bottom: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* 页脚样式调整 */
+footer {
+    background-color: #333; /* 深灰色背景 */
+    color: #fff; /* 白色文字 */
+    display: flex; /* 使用弹性布局 */
+    justify-content: space-between; /* 内容两端对齐 */
+    align-items: center; /* 垂直居中对齐 */
+    padding: 10px 20px; /* 上下内边距10像素，左右内边距20像素 */
+    flex-wrap: nowrap; /* 确保内容不会换行 */
+}
+
+/* 页脚链接样式 */
+footer a {
+    color: #fff; /* 设置链接颜色为白色 */
+    text-decoration: none; /* 取消下划线 */
+}

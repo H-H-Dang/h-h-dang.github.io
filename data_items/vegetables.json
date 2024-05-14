@@ -1,0 +1,235 @@
+[
+    {
+        "ref": "chineseLeaf",
+        "name": "白菜 (Chinese Leaf)",
+        "image": "../data_images/chinese_leaf.jpg",
+        "description": "这是白菜，是中国菜中的常见食材。",
+        "available": ["Waitrose", "LoonFung"]
+    },
+
+    {
+        "ref": "morningGlory",
+        "name": "空心菜 (Morning Glory)",
+        "image": "../data_images/morning_glory.jpg",
+        "description": "这是空心菜，常用于清炒或蒜蓉炒。",
+        "available": ["LoonFung"]
+    },
+
+    {
+        "ref": "garlicChieve",
+        "name": "韭菜 (Garlic Chieve)",
+        "image": "../data_images/garlic_chieve.jpg",
+        "description": "这是韭菜，一种常见的蔬菜。",
+        "available": ["LoonFung"]
+    },
+
+    {
+        "ref": "aChoy",
+        "name": "油麦菜 (A-Choy)",
+        "image": "../data_images/a_choy.jpg",
+        "description": "这是油麦菜，一种常见的蔬菜。",
+        "available": ["LoonFung"]
+    },
+
+    {
+        "ref": "yardLongBean",
+        "name": "豇豆 (Yard Long Bean)",
+        "image": "../data_images/yard_long_bean.jpg",
+        "description": "这是豇豆，一种常见的蔬菜。",
+        "available": ["LoonFung"]
+    },
+    
+    {
+        "ref": "mooli",
+        "name": "白萝卜 (Mooli)",
+        "image": "../data_images/mooli.jpg",
+        "description": "这是白萝卜，一种常见的蔬菜。",
+        "available": ["LoonFung"]
+    },
+
+    {
+        "ref": "tongHow",
+        "name": "茼蒿 (Tong How)",
+        "image": "../data_images/tong_how.jpg",
+        "description": "这是茼蒿，一种常见的蔬菜。",
+        "available": ["LoonFung"]
+    },
+
+    {
+        "ref": "choiSum",
+        "name": "菜心 (Choi Sum)",
+        "image": "../data_images/choi_sum.jpg",
+        "description": "这是菜心，一种常见的蔬菜。",
+        "available": ["LoonFung"]
+    },
+
+    {
+        "ref": "asparagus",
+        "name": "芦笋 (Asparagus)",
+        "image": "../data_images/asparagus.jpg",
+        "description": "这是芦笋，一种常见的蔬菜。",
+        "available": ["Lidl", "Tesco", "Sainsbury", "Waitrose", "LoonFung"]
+    },
+
+    {
+        "ref": "spinach",
+        "name": "菠菜 (Spinach)",
+        "image": "../data_images/spinach.jpg",
+        "description": "这是菠菜，一种富含铁质的绿叶蔬菜。",
+        "link": "spinach.html",
+        "available": ["LoonFung"]
+    },
+
+    {
+        "ref": "lettuce",
+        "name": "生菜 (Lettuce)",
+        "image": "../data_images/lettuce.jpg",
+        "description": "这是生菜，常用于制作沙拉。",
+        "link": "lettuce.html",
+        "available": ["Lidl", "Tesco", "Sainsbury", "Waitrose", "LoonFung"]
+    },
+
+    {
+        "ref": "kale",
+        "name": "甘蓝 (Kale)",
+        "image": "../data_images/kale.jpg",
+        "description": "这是甘蓝，一种营养丰富的绿叶蔬菜。",
+        "link": "kale.html",
+        "available": ["Sainsbury", "Waitrose"]
+    },
+    
+    {
+        "ref": "broccoli",
+        "name": "西兰花 (Broccoli)",
+        "image": "../data_images/broccoli.jpg",
+        "description": "这是西兰花，富含维生素C和维生素K。",
+        "link": "broccoli.html",
+        "available": ["Lidl", "Tesco", "Sainsbury"]
+    },
+
+    {
+        "ref": "zucchini",
+        "name": "西葫芦 (Zucchini)",
+        "image": "../data_images/zucchini.jpg",
+        "description": "这是西葫芦，一种常用于烹饪的蔬菜。",
+        "link": "zucchini.html",
+        "available": ["Lidl", "Tesco", "Sainsbury", "Waitrose", "LoonFung"]
+    },
+
+    {
+        "ref": "cucumber",
+        "name": "黄瓜 (Cucumber)",
+        "image": "../data_images/cucumber.jpg",
+        "description": "这是黄瓜，常用于生食。",
+        "link": "cucumber.html",
+        "available": ["Lidl", "Tesco", "Sainsbury", "Waitrose", "LoonFung"]
+    },
+
+    {
+        "ref": "bellPepper",
+        "name": "甜椒 (Bell Pepper)",
+        "image": "../data_images/bell_pepper.jpg",
+        "description": "这是甜椒，色彩缤纷，味道甜美。",
+        "link": "bell_pepper.html",
+        "available": ["Sainsbury", "Waitrose"]
+    },
+
+    {
+        "ref": "eggplant",
+        "name": "茄子 (Eggplant)",
+        "image": "../data_images/eggplant.jpg",
+        "description": "这是茄子，一种常用的紫色蔬菜。",
+        "link": "eggplant.html",
+        "available": ["Lidl", "Tesco", "Sainsbury", "Waitrose", "LoonFung"]
+    },
+
+    {
+        "ref": "celery",
+        "name": "芹菜 (Celery)",
+        "image": "../data_images/celery.jpg",
+        "description": "这是芹菜，常用于汤和凉拌菜。",
+        "link": "celery.html",
+        "available": ["Lidl", "Tesco", "Sainsbury", "Waitrose", "LoonFung"]
+    },
+
+    {
+        "ref": "carrot",
+        "name": "胡萝卜 (Carrot)",
+        "image": "../data_images/carrot.jpg",
+        "description": "这是胡萝卜，含有丰富的β-胡萝卜素。",
+        "link": "carrot.html",
+        "available": ["Lidl", "Tesco", "Sainsbury", "Waitrose", "LoonFung"]
+    },
+    
+    {
+        "ref": "pakChoi",
+        "name": "上海青 (Pak Choi)",
+        "image": "../data_images/pak_choi.jpg",
+        "description": "这是上海青，一种在中国料理中常见的绿叶蔬菜。",
+        "link": "pak_choi.html",
+        "available": ["Lidl", "Tesco", "Sainsbury", "Waitrose", "LoonFung"]
+    },
+
+    {
+        "ref": "naiBakChoi",
+        "name": "奶白菜 (Nai Bak Choi)",
+        "image": "../data_images/nai_bak_choi.jpg",
+        "description": "这是奶白菜，适合用来做泡菜或炖汤。",
+        "link": "nai_bak_choi.html",
+        "available": ["LoonFung"]
+    },
+
+    {
+        "ref": "greenBean",
+        "name": "绿豆角 (Green Bean)",
+        "image": "../data_images/green_bean.jpg",
+        "description": "这是绿豆角，脆甜可口，常见于炒菜中。",
+        "link": "green_bean.html",
+        "available": ["Lidl", "Tesco", "Sainsbury", "Waitrose", "LoonFung"]
+    },
+
+    {
+        "ref": "lotusRoot",
+        "name": "莲藕 (Lotus Root)",
+        "image": "../data_images/lotus_root.jpg",
+        "description": "这是莲藕，适合炖汤或凉拌，口感脆嫩。",
+        "link": "lotus_root.html",
+        "available": ["LoonFung"]
+    },
+
+    {
+        "ref": "blackFungus",
+        "name": "木耳 (Black Fungus)",
+        "image": "../data_images/black_fungus.jpg",
+        "description": "这是木耳，常用于中式凉拌和炒菜。",
+        "link": "black_fungus.html",
+        "available": ["LoonFung"]
+    },
+
+    {
+        "ref": "shiitakeMushroom",
+        "name": "香菇 (Shiitake Mushroom)",
+        "image": "../data_images/shiitake_mushroom.jpg",
+        "description": "这是香菇，风味浓郁，适合炖汤和炒菜。",
+        "link": "shiitake_mushroom.html",
+        "available": ["Lidl", "LoonFung"]
+    },
+
+    {
+        "ref": "bitterMelon",
+        "name": "苦瓜 (Bitter Melon)",
+        "image": "../data_images/bitter_melon.jpg",
+        "description": "这是苦瓜，味道苦涩，具有一定的药用价值。",
+        "link": "bitter_melon.html",
+        "available": ["LoonFung"]
+    },
+
+    {
+        "ref": "winterMelon",
+        "name": "冬瓜 (Winter Melon)",
+        "image": "../data_images/winter_melon.jpg",
+        "description": "这是冬瓜，常用于炖汤，清淡可口。",
+        "link": "winter_melon.html",
+        "available": ["LoonFung"]
+    }
+]

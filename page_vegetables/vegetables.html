@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>蔬菜详情</title>
+        <link rel="stylesheet" href="vegetables.css">
+        <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY"></script>
+    </head>
+
+    <body>
+        <header>
+            <h1>英区买菜指南</h1>
+            <nav>
+                <a href="../main.html">首页</a>
+                <a href="subpage_1.html">子页1</a>
+                <a href="subpage_2.html">子页2</a>
+                <a href="../page_feedback/feedback.html">意见反馈</a>
+            </nav>
+        </header>
+
+        <main>
+            <div class="top">
+                <div class="left">
+                    <h1 id="title"></h1>
+                    <img id="image" src="" alt="">
+                    <p id="description"></p>
+                </div>
+                
+                <div class="center">
+                    <h2>在以下超市均可购买:</h2>
+                    <ul id="available"></ul>
+                </div>
+    
+                <div class="right">
+                    <div id="map"></div>
+                </div>
+            </div>
+
+            <div class="bottom">
+                <h2>推荐菜谱</h2>
+                <ul id="recipe"></ul>
+            </div>
+        </main>
+
+        <footer>
+            <p>&copy; 2024 英区买菜指南的网页</p>
+            <p>合作联系：<a href="mailto:2661698159@qq.com">2661698159@qq.com</a></p>
+        </footer>
+        <script src="vegetables.js"></script>
+    </body>
+</html>

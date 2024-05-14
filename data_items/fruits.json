@@ -1,0 +1,10 @@
+[
+    {
+        "ref": "fruit",
+        "name": "果 (Fruit)",
+        "image": "images/fruit.jpg",
+        "description": "这是果，一种常见的水果。",
+        "link": "fruit.html",
+        "available": ["None"]
+    }
+]

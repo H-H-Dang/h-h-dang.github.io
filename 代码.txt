@@ -1,0 +1,24 @@
+    <script>
+        fetch('vegetables.json')
+            .then(response => response.json())
+            .then(data => {
+                const imagesContainer = document.querySelector('.images');
+                data.sort((a, b) => a.name.localeCompare(b.name, 'zh-Hans-CN', { sensitivity: 'accent' }));
+                data.forEach(vegetable => {
+                    const link = document.createElement('a');
+                    link.href = vegetable.link;
+                    const img = document.createElement('img');
+                    img.src = vegetable.image;
+                    img.alt = vegetable.name;
+                    const description = document.createElement('p');
+                    description.textContent = vegetable.name;
+                    link.appendChild(img);
+                    link.appendChild(description);
+                    imagesContainer.appendChild(link);
+                });
+            })
+            .catch(error => {
+                console.error('Error fetching vegetables:', error);
+                document.querySelector('.images').innerHTML = '<p>加载数据时发生错误，请稍后再试。</p>'; // Display user-friendly error message
+            });
+    </script>

@@ -1,0 +1,36 @@
+[
+    {
+        "name": "Lidl",
+        "location": "地址 A",
+        "hours": "营业时间 A",
+        "contact": "联系方式 A"
+    },
+
+    {
+        "name": "Tesco",
+        "location": "地址 B",
+        "hours": "营业时间 B",
+        "contact": "联系方式 B"
+    },
+
+    {
+        "name": "Sainsbury",
+        "location": "地址 C",
+        "hours": "营业时间 C",
+        "contact": "联系方式 C"
+    },
+
+    {
+        "name": "Waitrose",
+        "location": "地址 D",
+        "hours": "营业时间 D",
+        "contact": "联系方式 D"
+    },
+
+    {
+        "name": "LoonFung",
+        "location": "地址 D",
+        "hours": "营业时间 D",
+        "contact": "联系方式 D"
+    }
+]
