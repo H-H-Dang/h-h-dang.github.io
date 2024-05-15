@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const params = new URLSearchParams(window.location.search);
     const veg_ref = params.get('veg_ref');
 
-    fetch('../data_items/vegetables.json')
+    fetch('../assets/items/vegetables.json')
         .then(response => response.json())
         .then(data => {
             const vegetable = data.find(veg => veg.ref === veg_ref);
