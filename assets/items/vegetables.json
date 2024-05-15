@@ -2,7 +2,7 @@
     {
         "ref": "chineseLeaf",
         "name": "白菜 (Chinese Leaf)",
-        "image": "../assets/assets/images/chinese_leaf.jpg",
+        "image": "../assets/images/chinese_leaf.jpg",
         "description": "这是白菜，是中国菜中的常见食材。",
         "available": ["Waitrose", "LoonFung"]
     },
