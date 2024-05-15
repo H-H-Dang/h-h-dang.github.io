@@ -1,36 +1,98 @@
 [
     {
-        "name": "Lidl",
-        "location": "地址 A",
-        "hours": "营业时间 A",
-        "contact": "联系方式 A"
+        "ref": "aldi",
+        "name": "Aldi"
     },
 
     {
+        "ref": "asda",
+        "name": "Asda"
+    },
+
+    {
+        "ref": "coopFood",
+        "name": "Co-op Food"
+    },
+
+    {
+        "ref": "hooHing",
+        "name": "和兴 (Hoo Hing)"
+    },
+
+    {
+        "ref": "icelandFoods",
+        "name": "Iceland Foods"
+    },
+
+    {
+        "ref": "lidl",
+        "name": "Lidl"
+    },
+
+    {
+        "ref": "longdan",
+        "name": "Longdan"
+    },
+
+    {
+        "ref": "loonFungSupermarket",
+        "name": "龙凤行 (Loon Fung Supermarket)"
+    },
+
+    {
+        "ref": "marksAndSpencer",
+        "name": "Marks & Spencer"
+    },
+
+    {
+        "ref": "morrisons",
+        "name": "Morrisons"
+    },
+
+    {
+        "ref": "newLoonMoonSupermarket",
+        "name": "新龙门 (New Loon Moon Supermarket)"
+    },
+
+    {
+        "ref": "orientalDelight",
+        "name": "Oriental Delight"
+    },
+
+    {
+        "ref": "sainsburys",
+        "name": "Sainsbury's"
+    },
+
+    {
+        "ref": "seeWooSupermarket",
+        "name": "泗和 (SeeWoo Supermarket)"
+    },
+
+    {
+        "ref": "tesco",
         "name": "Tesco",
-        "location": "地址 B",
-        "hours": "营业时间 B",
-        "contact": "联系方式 B"
+        "branch": ["Tesco Express", "Tesco Metro", "Tesco Extra", "Tesco Superstore"]
     },
 
     {
-        "name": "Sainsbury",
-        "location": "地址 C",
-        "hours": "营业时间 C",
-        "contact": "联系方式 C"
+        "ref": "tianTianMarket",
+        "name": "天天超市 (Tian Tian Market)"
     },
 
     {
+        "ref": "waitrose",
         "name": "Waitrose",
-        "location": "地址 D",
-        "hours": "营业时间 D",
-        "contact": "联系方式 D"
+        "branch": ["Waitrose & Partners", "Little Waitrose"]
     },
 
     {
-        "name": "LoonFung",
-        "location": "地址 D",
-        "hours": "营业时间 D",
-        "contact": "联系方式 D"
+        "ref": "wingYip",
+        "name": "Wing Yip"
+    },
+
+    {
+        "ref": "yoHome",
+        "name": "有家 (YoHome)"
     }
 ]
