@@ -45,7 +45,7 @@ function display_item(data) { // 将排序后的数据显示到页面上
     // 遍历数据数组，为每个元素创建相应的HTML结构并添加到页面
     data.forEach(item => {
         const link = document.createElement("a"); // 创建链接元素
-        link.href = `../public/html/vegetables.html?veg_ref=${item.ref}`; // 设置链接的目标地址
+        link.href = `../html/vegetables.html?veg_ref=${item.ref}`; // 设置链接的目标地址
         const img = document.createElement("img"); // 创建图片元素
         img.src = item.image; // 设置图片的来源地址
         img.alt = item.name; // 设置图片的替代文本
