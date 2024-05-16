@@ -2,7 +2,7 @@
     {
         "ref": "aChoy",
         "name": "油麦菜 (A-Choy)",
-        "image": "../assets/images/a_choy.jpg",
+        "image": "../../assets/images/a_choy.jpg",
         "description": "油麦菜是一种在中式炒菜中常用的绿色叶菜。",
         "available": []
     },
@@ -10,7 +10,7 @@
     {
         "ref": "asparagus",
         "name": "芦笋 (Asparagus)",
-        "image": "../assets/images/asparagus.jpg",
+        "image": "../../assets/images/asparagus.jpg",
         "description": "芦笋是一种富含营养的细长绿色蔬菜，经常用于蒸或炒食。",
         "available": []
     },
@@ -18,7 +18,7 @@
     {
         "ref": "bambooShoots",
         "name": "竹笋 (Bamboo Shoots)",
-        "image": "../assets/images/bamboo_shoots.jpg",
+        "image": "../../assets/images/bamboo_shoots.jpg",
         "description": "竹笋是从竹子中收获的嫩芽，味道鲜美，质地脆。",
         "available": []
     },
@@ -26,7 +26,7 @@
     {
         "ref": "beetroot",
         "name": "甜菜根 (Beetroot)",
-        "image": "../assets/images/beetroot.jpg",
+        "image": "../../assets/images/beetroot.jpg",
         "description": "甜菜根是一种根类蔬菜，常用于制作沙拉或汁。",
         "available": []
     },
@@ -34,7 +34,7 @@
     {
         "ref": "bellPepper",
         "name": "甜椒 (Bell Pepper)",
-        "image": "../assets/images/bell_pepper.jpg",
+        "image": "../../assets/images/bell_pepper.jpg",
         "description": "甜椒是一种多彩的蔬菜，含有丰富的维生素C。",
         "available": []
     },
@@ -42,7 +42,7 @@
     {
         "ref": "bitterMelon",
         "name": "苦瓜 (Bitter Melon)",
-        "image": "../assets/images/bitter_melon.jpg",
+        "image": "../../assets/images/bitter_melon.jpg",
         "description": "苦瓜是一种独特的蔬菜，以其苦味和健康益处而闻名。",
         "available": []
     },
@@ -50,7 +50,7 @@
     {
         "ref": "blackFungus",
         "name": "木耳 (Black Fungus)",
-        "image": "../assets/images/black_fungus.jpg",
+        "image": "../../assets/images/black_fungus.jpg",
         "description": "木耳是一种食用菌，常用于中式料理中增加口感。",
         "available": []
     },
@@ -58,7 +58,7 @@
     {
         "ref": "broccoli",
         "name": "西兰花 (Broccoli)",
-        "image": "../assets/images/broccoli.jpg",
+        "image": "../../assets/images/broccoli.jpg",
         "description": "西兰花是一种绿色蔬菜，被认为是营养丰富的健康食品。",
         "available": []
     },
@@ -66,7 +66,7 @@
     {
         "ref": "carrot",
         "name": "胡萝卜 (Carrot)",
-        "image": "../assets/images/carrot.jpg",
+        "image": "../../assets/images/carrot.jpg",
         "description": "胡萝卜是一种根类蔬菜，含有丰富的β-胡萝卜素。",
         "available": []
     },
@@ -74,7 +74,7 @@
     {
         "ref": "celery",
         "name": "芹菜 (Celery)",
-        "image": "../assets/images/celery.jpg",
+        "image": "../../assets/images/celery.jpg",
         "description": "芹菜是一种常用于汤和凉拌菜中的低热量蔬菜。",
         "available": []
     },
@@ -82,7 +82,7 @@
     {
         "ref": "chineseLeaf",
         "name": "白菜 (Chinese Leaf)",
-        "image": "../assets/images/chinese_leaf.jpg",
+        "image": "../../assets/images/chinese_leaf.jpg",
         "description": "白菜是一种多用途的绿色叶菜，常用于烹饪中。",
         "available": []
     },
@@ -90,14 +90,14 @@
     {
         "ref": "chineseToon",
         "name": "香椿 (Chinese Toon)",
-        "image": "../assets/images/chinese_toon.jpg",
+        "image": "../../assets/images/chinese_toon.jpg",
         "description": "香椿以其独特的香气和味道，常用于春季料理。",
         "available": []
     },
     {
         "ref": "chineseYam",
         "name": "铁棍山药 (Chinese Yam)",
-        "image": "../assets/images/chinese_yam.jpg",
+        "image": "../../assets/images/chinese_yam.jpg",
         "description": "铁棍山药是一种营养丰富的藤本植物根茎。",
         "available": []
     },
@@ -105,7 +105,7 @@
     {
         "ref": "choiSum",
         "name": "菜心 (Choi Sum)",
-        "image": "../assets/images/choi_sum.jpg",
+        "image": "../../assets/images/choi_sum.jpg",
         "description": "菜心是一种叶茎类蔬菜，适合蒸煮或炒食。",
         "available": []
     },
@@ -113,7 +113,7 @@
     {
         "ref": "corn",
         "name": "玉米 (Corn)",
-        "image": "../assets/images/corn.jpg",
+        "image": "../../assets/images/corn.jpg",
         "description": "玉米是全球广泛消费的谷物之一，可用于多种烹饪方法。",
         "available": []
     },
@@ -121,7 +121,7 @@
     {
         "ref": "cucumber",
         "name": "黄瓜 (Cucumber)",
-        "image": "../assets/images/cucumber.jpg",
+        "image": "../../assets/images/cucumber.jpg",
         "description": "黄瓜是一种水分丰富的蔬菜，常用于生吃。",
         "available": []
     },
@@ -129,7 +129,7 @@
     {
         "ref": "eggplant",
         "name": "茄子 (Eggplant)",
-        "image": "../assets/images/eggplant.jpg",
+        "image": "../../assets/images/eggplant.jpg",
         "description": "茄子是一种多才多艺的蔬菜，常用于多种烹饪方法。",
         "available": []
     },
@@ -137,7 +137,7 @@
     {
         "ref": "garlic",
         "name": "蒜 (Garlic)",
-        "image": "../assets/images/garlic.jpg",
+        "image": "../../assets/images/garlic.jpg",
         "description": "蒜是全球广泛使用的调味料，具有显著的健康益处。",
         "available": []
     },
@@ -145,7 +145,7 @@
     {
         "ref": "garlicChieve",
         "name": "韭菜 (Garlic Chieve)",
-        "image": "../assets/images/garlic_chieve.jpg",
+        "image": "../../assets/images/garlic_chieve.jpg",
         "description": "韭菜是一种带有独特香味的叶菜，常用于炒食和做饺子馅。",
         "available": []
     },
@@ -153,7 +153,7 @@
     {
         "ref": "greenBean",
         "name": "绿豆角 (Green Bean)",
-        "image": "../assets/images/green_bean.jpg",
+        "image": "../../assets/images/green_bean.jpg",
         "description": "绿豆角是一种口感脆嫩的豆类蔬菜，适合炒食。",
         "available": []
     },
@@ -161,7 +161,7 @@
     {
         "ref": "greenPepper",
         "name": "青椒 (Green Pepper)",
-        "image": "../assets/images/green_pepper.jpg",
+        "image": "../../assets/images/green_pepper.jpg",
         "description": "青椒是一种多用途的甜椒，常绿色，用于多种料理。",
         "available": []
     },
@@ -169,7 +169,7 @@
     {
         "ref": "kale",
         "name": "甘蓝 (Kale)",
-        "image": "../assets/images/kale.jpg",
+        "image": "../../assets/images/kale.jpg",
         "description": "甘蓝是一种叶菜，因其高营养价值而受到欢迎。",
         "available": []
     },
@@ -177,7 +177,7 @@
     {
         "ref": "leek",
         "name": "大葱 (Leek)",
-        "image": "../assets/images/leek.jpg",
+        "image": "../../assets/images/leek.jpg",
         "description": "大葱是一种味道较温和的葱类蔬菜，适合炖菜和汤。",
         "available": []
     },
@@ -185,7 +185,7 @@
     {
         "ref": "leekSprout",
         "name": "韭黄 (Leek Sprout)",
-        "image": "../assets/images/leek_sprout.jpg",
+        "image": "../../assets/images/leek_sprout.jpg",
         "description": "韭黄是韭菜的幼苗，常用于中式炒菜。",
         "available": []
     },
@@ -193,7 +193,7 @@
     {
         "ref": "lettuce",
         "name": "生菜 (Lettuce)",
-        "image": "../assets/images/lettuce.jpg",
+        "image": "../../assets/images/lettuce.jpg",
         "description": "生菜是一种叶菜，常用于沙拉和其他冷菜。",
         "available": []
     },
@@ -201,7 +201,7 @@
     {
         "ref": "lotusRoot",
         "name": "莲藕 (Lotus Root)",
-        "image": "../assets/images/lotus_root.jpg",
+        "image": "../../assets/images/lotus_root.jpg",
         "description": "莲藕是一种在亚洲料理中常用的根茎类蔬菜，质地脆而多汁。",
         "available": []
     },
@@ -209,7 +209,7 @@
     {
         "ref": "morningGlory",
         "name": "空心菜 (Morning Glory)",
-        "image": "../assets/images/morning_glory.jpg",
+        "image": "../../assets/images/morning_glory.jpg",
         "description": "空心菜是一种常用于东南亚菜肴中的蔬菜，以其爽脆的口感而闻名。",
         "available": []
     },
@@ -217,7 +217,7 @@
     {
         "ref": "mooli",
         "name": "白萝卜 (Mooli)",
-        "image": "../assets/images/mooli.jpg",
+        "image": "../../assets/images/mooli.jpg",
         "description": "白萝卜是一种常见的根类蔬菜，可以用来做汤或凉拌。",
         "available": []
     },
@@ -225,7 +225,7 @@
     {
         "ref": "naiBakChoi",
         "name": "奶白菜 (Nai Bak Choi)",
-        "image": "../assets/images/nai_bak_choi.jpg",
+        "image": "../../assets/images/nai_bak_choi.jpg",
         "description": "奶白菜是一种多用途的蔬菜，常用于炖汤和清炒。",
         "available": []
     },
@@ -233,7 +233,7 @@
     {
         "ref": "okra",
         "name": "秋葵 (Okra)",
-        "image": "../assets/images/okra.jpg",
+        "image": "../../assets/images/okra.jpg",
         "description": "秋葵是一种常见的蔬菜，以其粘性和纤维而著称。",
         "available": []
     },
@@ -241,7 +241,7 @@
     {
         "ref": "onion",
         "name": "洋葱 (Onion)",
-        "image": "../assets/images/onion.jpg",
+        "image": "../../assets/images/onion.jpg",
         "description": "洋葱是全球厨房中不可或缺的基本调味蔬菜之一。",
         "available": []
     },
@@ -249,7 +249,7 @@
     {
         "ref": "pakChoi",
         "name": "上海青 (Pak Choi)",
-        "image": "../assets/images/pak_choi.jpg",
+        "image": "../../assets/images/pak_choi.jpg",
         "description": "上海青是一种广泛使用的绿叶蔬菜，常见于中式炒菜中。",
         "available": []
     },
@@ -257,7 +257,7 @@
     {
         "ref": "potato",
         "name": "土豆 (Potato)",
-        "image": "../assets/images/potato.jpg",
+        "image": "../../assets/images/potato.jpg",
         "description": "土豆是全球广泛种植和消费的主要食品作物。",
         "available": []
     },
@@ -265,7 +265,7 @@
     {
         "ref": "radish",
         "name": "水萝卜 (Radish)",
-        "image": "../assets/images/radish.jpg",
+        "image": "../../assets/images/radish.jpg",
         "description": "水萝卜是一种多用途的根类蔬菜，常用于凉拌和炖汤。",
         "available": []
     },
@@ -273,7 +273,7 @@
     {
         "ref": "shiitakeMushroom",
         "name": "香菇 (Shiitake Mushroom)",
-        "image": "../assets/images/shiitake_mushroom.jpg",
+        "image": "../../assets/images/shiitake_mushroom.jpg",
         "description": "香菇是一种风味浓郁的食用菌，常用于汤和炒菜。",
         "available": []
     },
@@ -281,7 +281,7 @@
     {
         "ref": "spinach",
         "name": "菠菜 (Spinach)",
-        "image": "../assets/images/spinach.jpg",
+        "image": "../../assets/images/spinach.jpg",
         "description": "菠菜是一种富含铁质和维生素的绿叶蔬菜，适合生吃或烹饪。",
         "available": []
     },
@@ -289,7 +289,7 @@
     {
         "ref": "springOnion",
         "name": "小葱 (Spring Onion)",
-        "image": "../assets/images/spring_onion.jpg",
+        "image": "../../assets/images/spring_onion.jpg",
         "description": "小葱是一种常见的调味蔬菜，用于增添菜肴的新鲜口感和香气。",
         "available": []
     },
@@ -297,7 +297,7 @@
     {
         "ref": "sweetPotato",
         "name": "红薯 (Sweet Potato)",
-        "image": "../assets/images/sweet_potato.jpg",
+        "image": "../../assets/images/sweet_potato.jpg",
         "description": "红薯是一种营养丰富的根类蔬菜，甜度较高。",
         "available": []
     },
@@ -305,7 +305,7 @@
     {
         "ref": "tomato",
         "name": "西红柿 (Tomato)",
-        "image": "../assets/images/tomato.jpg",
+        "image": "../../assets/images/tomato.jpg",
         "description": "西红柿是一种广泛使用的水果，通常在烹饪中当作蔬菜使用。",
         "available": []
     },
@@ -313,7 +313,7 @@
     {
         "ref": "tongHow",
         "name": "茼蒿 (Tong How)",
-        "image": "../assets/images/tong_how.jpg",
+        "image": "../../assets/images/tong_how.jpg",
         "description": "茼蒿是一种味道独特的蔬菜，常用于中式烹饪。",
         "available": []
     },
@@ -321,7 +321,7 @@
     {
         "ref": "winterMelon",
         "name": "冬瓜 (Winter Melon)",
-        "image": "../assets/images/winter_melon.jpg",
+        "image": "../../assets/images/winter_melon.jpg",
         "description": "冬瓜是一种适合用来炖汤的蔬菜，味道清淡，具有降火的功效。",
         "available": []
     },
@@ -329,7 +329,7 @@
     {
         "ref": "yardLongBean",
         "name": "豇豆 (Yard Long Bean)",
-        "image": "../assets/images/yard_long_bean.jpg",
+        "image": "../../assets/images/yard_long_bean.jpg",
         "description": "豇豆是一种常见的长豆，可用于炒菜和腌制。",
         "available": []
     },
@@ -337,7 +337,7 @@
     {
         "ref": "zucchini",
         "name": "西葫芦 (Zucchini)",
-        "image": "../assets/images/zucchini.jpg",
+        "image": "../../assets/images/zucchini.jpg",
         "description": "西葫芦是一种多用途的蔬菜，常用于烤制或炒食。",
         "available": []
     }

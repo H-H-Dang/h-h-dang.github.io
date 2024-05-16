@@ -20,36 +20,36 @@ header {
     height: 50px;
 }
 
+header h1 {
+    margin: 0;
+}
+
 nav a {
     color: #fff;
     text-decoration: none;
     padding: 0 15px;
 }
 
-/* 主内容区域样式 */
 main {
     text-align: center; /* 文本居中 */
     flex: 1; /* 占用剩余空间 */
     padding: 20px; /* 内边距20像素 */
 }
 
-/* 主内容区域超链接样式 */
+main h2 {
+    height: 10px;
+}
+
 main a {
     color: black; /* 设置超链接颜色为黑色 */
     text-decoration: none; /* 取消下划线 */
 }
 
-/* 选择区域样式 */
-.recommendation_vegetables {
-    display: flex; /* 使用弹性盒模型 */
-    justify-content: center; /* 主轴对齐方式：居中 */
-    align-items: center; /* 交叉轴对齐方式：居中 */
-    margin-bottom: 20px; /* 底部外边距20像素 */
-}
-
-/* 选择器样式 */
-.recommendation_vegetables select {
-    margin-right: 20px; /* 右侧外边距20像素，与下一个元素保持距离 */
+.selection_area {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
 }
 
 /* 图像展示区域样式 */
@@ -71,6 +71,7 @@ main a {
     margin-right: 20px; /* 右侧外边距20像素 */
 }
 
+
 /* 图像样式 */
 .images img {
     width: 100%; /* 图片宽度为容器宽度的100% */
@@ -79,7 +80,6 @@ main a {
     object-fit: cover; /* 图片内容按比例填充元素框，可能会被裁剪 */
     margin-bottom: 10px; /* 图片下方外边距10像素 */
 }
-
 
 /* 图像描述文字样式 */
 .images p {
@@ -103,4 +103,3 @@ footer a {
     color: #fff; /* 设置链接颜色为白色 */
     text-decoration: none; /* 取消下划线 */
 }
-

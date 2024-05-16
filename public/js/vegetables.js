@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const params = new URLSearchParams(window.location.search);
     const veg_ref = params.get('veg_ref');
 
-    fetch('../assets/items/vegetables.json')
+    fetch('../../assets/items/vegetables.json')
         .then(response => response.json())
         .then(data => {
             const vegetable = data.find(veg => veg.ref === veg_ref);
@@ -10,6 +10,11 @@ document.addEventListener('DOMContentLoaded', function () {
                 document.getElementById('title').textContent = vegetable.name;
                 document.getElementById('image').src = vegetable.image;
                 document.getElementById('description').textContent = vegetable.description;
+
+                // 记录访问量
+                fetch(`http://localhost:3000/visit/${vegetable.ref}`)
+                    .then(response => response.text())
+                    .then(data => console.log(data));
                 
                 const map = new google.maps.Map(document.getElementById('map'), {
                     zoom: 10,

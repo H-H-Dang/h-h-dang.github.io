@@ -9,7 +9,7 @@ function update_category() { // 处理用户选择变更后的更新 该函数�
     @param {string} sort_method - 排序方式，拼音或英文
 */
 function load_category(category, sort_method) { // 根据给定的类别和排序方式加载数据
-    fetch("../assets/items/" + category + ".json") // 发起请求获取相应类别的JSON数据
+    fetch("../../assets/items/" + category + ".json") // 发起请求获取相应类别的JSON数据
         .then(response => response.json()) // 解析JSON格式的响应
         .then(data => {
             sort_data(data, sort_method); // 对数据进行排序

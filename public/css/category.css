@@ -41,15 +41,10 @@ main a {
 
 /* 选择区域样式 */
 .selection_area {
-    display: flex; /* 使用弹性盒模型 */
-    justify-content: center; /* 主轴对齐方式：居中 */
-    align-items: center; /* 交叉轴对齐方式：居中 */
-    margin-bottom: 20px; /* 底部外边距20像素 */
-}
-
-/* 选择器样式 */
-.selection_area select {
-    margin-right: 20px; /* 右侧外边距20像素，与下一个元素保持距离 */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
 }
 
 /* 图像展示区域样式 */

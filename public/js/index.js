@@ -12,7 +12,7 @@ function update_category() { // 处理用户选择变更后的更新 该函数�
 
 async function fetchAndUpdateContent(type, category, sort, images) {
     try {
-        const url = `/api/${type}?category=${category}&sort=${sort}`;
+        const url = `http://localhost:3000/ranking?type=${type}&category=${category}&sort=${sort}`; // 更新此 URL 以匹配你的服务器端点
         const response = await fetch(url);
         if (!response.ok) {
             throw new Error(`HTTP error! status: ${response.status}`);
@@ -29,12 +29,32 @@ function displayItems(items, images) {
     container.innerHTML = ''; // 清空现有内容
 
     items.forEach(item => {
-        const article = document.createElement('article');
+        const link = document.createElement('a');
+        link.href = `html/vegetables.html?veg_ref=${item.ref}`;
+
+        // 添加点击事件监听器
+        link.addEventListener('click', (event) => {
+            event.preventDefault(); // 阻止默认的跳转行为
+            fetch(`http://localhost:3000/visit/${item.id}`) // 传递 `id` 记录访问量
+                .then(response => response.text())
+                .then(data => {
+                    console.log(`Visit recorded for ${item.ref}. Server response: ${data}`);
+                    window.location.href = link.href; // 在 `fetch` 完成后进行页面跳转
+                })
+                .catch(error => {
+                    console.error('Error recording visit', error);
+                });
+        });
+
         const image = document.createElement('img');
         image.src = item.image;
         image.alt = item.name;
-        article.appendChild(image);
-        container.appendChild(article);
+        const description = document.createElement('p');
+        description.textContent = item.name;
+
+        link.appendChild(image);
+        link.appendChild(description);
+        container.appendChild(link);
     });
 }
 
